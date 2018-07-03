@@ -1,0 +1,86 @@
+body{
+    background:url("../images/background6.jpg");
+    background-position: center;
+    margin:0;
+}
+
+header{
+    margin-bottom:50px;
+    width:250px;
+    padding:5px;
+    margin-top:10px;
+    color:#FFC500;
+   
+    font-size:20px;
+}
+#logo{
+    margin-left:550px;
+    height:120px;
+    width:500px;
+}
+#instructions{
+    width:450px;
+    text-align:center;
+    background: url("../images/map.png");
+    font-family:"Henny Penny", cursive;
+    float:left;
+    margin-bottom:50px;
+    margin-left:35px;
+    font-weight:900;
+    padding:10px;
+    
+}
+
+#gryffindor{
+    width:120px;
+    height:110px;
+    float:left;
+    margin-left:75px;
+    margin-top:50px; 
+}
+#ravenclaw{
+    width:120px;
+    height:110px;
+    float:right;
+    margin-right:1025px;
+    margin-top:50px;
+   
+}
+
+#slytherin{
+    width:120px;
+    height:110px;
+    float:right;
+    margin-right:1025px;
+    margin-top:50px; 
+}
+#hufflepuff{
+    width:120px;
+    height:110px;
+    float:left;
+    margin-left:75px;
+    margin-top:50px;
+}
+
+
+.randomNumberBox{
+    width: 200px;
+    height: 100px;
+    background:url("../images/randomNum.jpg");
+    width:250px;
+    margin-bottom:75px;
+    clear:left;
+    
+    float:left;
+    margin-left: 35px;
+}
+.winLossBox{
+    width:200px;
+    height:100px;
+   
+    margin-right:1350px;
+    color:yellow;
+    background: rgba(153, 50, 204, 0.507);
+    float:right;
+    
+}

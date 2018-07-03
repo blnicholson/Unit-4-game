@@ -1,1 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unit 4</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Henny+Penny" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="assets/images/potterLogo.png">
+    </header>
+    <div id="container">
+        <div id="instructions">
+            <h3>Instructions</h3>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four images below. By clicking on an image you will add a specific amount of points to your total score.
+            </p>
+            <p>You win the game by matching your total score to the random number, you lose the game if your total score goes
+                above the random number.
+            </p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+    </div>
+    <div id="imageOne">
+        <img id="gryffindor" src="assets/images/gryffindor.png">
+    </div>
+    <div id="imageTwo">
+        <img id="ravenclaw" src="assets/images/ravenclaw.jpg">
+    <div id="imageThree">
+        <img id="slytherin" src="assets/images/slytherin.jpg">
+    </div>
+    <div id="imageFour">
+        <img id="hufflepuff" src="assets/images/hufflepuff.png">
+    </div>
+</div>
+<div id="container2">
+    
+    <div class="randomNumberBox">
+        <p>Random Number: <span id="randomNumber"></span></p>
+    </div>
+    <div class="winLossBox">
+        <p>Wins/Losses</p>
+    </div>
+</div>
+    
+    <script rel="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
