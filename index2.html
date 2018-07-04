@@ -16,26 +16,25 @@
     <header>
         <img id="logo" src="assets/images/potterLogo.png">
     </header>
-    <div class="container-fluid">
-        <div id="row">
-            <div class="col-3-md">
+   
+        <!-- <div id="row"> -->
+            <!-- <div col-3-md> -->
                 <div id="instructions">
                     <h3>Instructions</h3>
-                    <p>Welcome to Hogwarts!</p>
-                    <p>The Sorting Hat will give you a random number.</p>
-                    <p>To find out which house you are in, click on any of the house images to get a value. 
-                       Continue clicking until you match with the Sorting Hat's number!</p>   
-                    <p>If you can manage to get a match with the Sorting Hat, a win will be added.</p>
-                    <p>If you go over the Sorting Hat's number, a loss will be added.</p>
-                    <p>The last image you click on is the house you will be sorted into, no matter
-                        if its a win or loss!
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four images below. By clicking on an image you will add a specific amount of points to your
+                        total score.
                     </p>
-                    <p>The game ends when you win or lose 4 times!</p>
-                    <p>Have Fun!</p>
+                    <p>You win the game by matching your total score to the random number, you lose the game if your total score
+                        goes above the random number.
+                    </p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
                 </div>
-            </div>
-        </div>
-        <div id="row3" class="row">
+            <!-- </div> -->
+        <!-- </div> -->
+        <div id="container-fluid">
+        <div class="row">
             <div class="col-md-3">
                 <div id="imageOne">
                     <img id="gryffindor" src="assets/images/gryffindor.png">
@@ -52,6 +51,8 @@
                     <img id="hufflepuff" src="assets/images/hufflepuff.png">
                 </div>
             </div>
+
+
         </div>
 
         <div class="row">
@@ -62,29 +63,26 @@
                     </p>
                 </div>
             </div>
-            
-        </div>
-        <div row>
-                <div id="winBox" class="col-md-3">
-                        <div class="winLossBox">
-                            <p> Wins: </p>
-                            <span id="countWin"></span>
-                            <p>Losses: </p>
-                            <span id="losses"></span>
-                        </div>
-                    </div>
             <div class="col-md-3">
-                <div class="counter">
-                    <p>Total Score: </p>
-                    <span id="scoreCounter"></span>
+                <div class="winLossBox">
+                    <p> Wins: </p>
+                    <span id="countWin"></span>
+                    <p>Losses: </p>
+                    <span id="losses"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="scoreCounter">
+                        <p>score</p>
+
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
 
-
-    <script rel="text/javascript" src="assets/javascript/game.js"></script>
+    <script rel="text/javascript" src="assets/javascript/game2.js"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 body{
     background:url("../images/background6.jpg");
-    background-position: center;
-    margin:0;
+    background-position:center;
+    margin:0;  
 }
 
 header{
@@ -24,63 +24,76 @@ header{
     background: url("../images/map.png");
     font-family:"Henny Penny", cursive;
     float:left;
-    margin-bottom:50px;
     margin-left:35px;
     font-weight:900;
     padding:10px;
-    
 }
 
 #gryffindor{
     width:120px;
     height:110px;
-    float:left;
     margin-left:75px;
     margin-top:50px; 
+    margin-left:50px;
+     
 }
 #ravenclaw{
     width:120px;
     height:110px;
-    float:right;
-    margin-right:1025px;
-    margin-top:50px;
-   
+    margin-left:75px;
+    margin-top:50px; 
+    margin-left:50px;  
 }
 
 #slytherin{
     width:120px;
     height:110px;
-    float:right;
-    margin-right:1025px;
     margin-top:50px; 
+    margin-left:-150px; 
+    
 }
 #hufflepuff{
     width:120px;
     height:110px;
-    float:left;
-    margin-left:75px;
     margin-top:50px;
+    margin-left:-150px;   
 }
-
 
 .randomNumberBox{
-    width: 200px;
-    height: 100px;
-    background:url("../images/randomNum.jpg");
-    width:250px;
-    margin-bottom:75px;
-    clear:left;
+    background:url("../images/sortingHat.jpg");
+    background-position: center;
+    background-size:115px 115px;
+    color:yellow;
+    padding:20px;
+    font-family:"Henny Penny", cursive;
+    text-align:center;     
+    margin-top:50px;
+    margin-left:120px;
+    height:100px;
+    width:120px;
     
-    float:left;
-    margin-left: 35px;
 }
 .winLossBox{
-    width:200px;
-    height:100px;
-   
-    margin-right:1350px;
     color:yellow;
     background: rgba(153, 50, 204, 0.507);
-    float:right;
+    font-family:"Henny Penny", cursive;
+    font-family:"Henny Penny", cursive;
+    text-align:center;      
+    margin-top:50px; 
+   
+  
     
 }
+.counter{
+    background:yellow;
+    font-family:"Henny Penny", cursive;
+    text-align:center;  
+    margin-top:-125px;
+    margin-left:450px;
+    height:125px;
+    width:350px;
+    padding:15px;
+    
+    
+}
+
