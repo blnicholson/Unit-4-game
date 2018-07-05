@@ -75,17 +75,24 @@ header{
 }
 .winLossBox{
     color:yellow;
-    background: rgba(153, 50, 204, 0.507);
+    background:url("../images/harry.jpg");
+    background-position: left;
+    background-size:350px 125px;
+    background-repeat: no-repeat;
     font-family:"Henny Penny", cursive;
     font-family:"Henny Penny", cursive;
     text-align:center;      
     margin-top:50px; 
+    
    
   
     
 }
 .counter{
-    background:yellow;
+    color:yellow;
+    background:url("../images/hw1.png");
+    background-position: center;
+    background-size:350px 125px;
     font-family:"Henny Penny", cursive;
     text-align:center;  
     margin-top:-125px;
