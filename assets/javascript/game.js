@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 //global variables
 var wins = 0;
 var losses = 0;
@@ -120,4 +119,6 @@ $("#hufflepuff").on("click", function () {
     else if (counter >= choosenNumber) {
         lose();
     }
+
+});
 });
