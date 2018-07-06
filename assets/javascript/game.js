@@ -58,14 +58,7 @@ function reset() {
         $("#countWin").text(wins);
         losses = 0;
         $("#losses").text(losses);
-        counter = 0;
-        choosenNumber = randomNum(19, 120);
-        $("#randomNumber").text(choosenNumber);
-        imageValue1 = randomNum(1, 12);
-        imageValue2 = randomNum(1, 12);
-        imageValue3 = randomNum(1, 12);
-        imageValue4 = randomNum(1, 12);
-
+        restart();
     }
     else if (losses > 4) {
         alert("Game Over!")
@@ -73,13 +66,7 @@ function reset() {
         $("#countWin").text(wins);
         losses = 0;
         $("#losses").text(losses);
-        choosenNumber = randomNum(19, 120);
-        $("#randomNumber").text(choosenNumber);
-        imageValue1 = randomNum(1, 12);
-        imageValue2 = randomNum(1, 12);
-        imageValue3 = randomNum(1, 12);
-        imageValue4 = randomNum(1, 12);
-
+        restart();
     }
 }
 

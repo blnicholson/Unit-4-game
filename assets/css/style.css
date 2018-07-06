@@ -5,18 +5,16 @@ body{
 }
 
 header{
-    margin-bottom:50px;
+    
     width:250px;
-    padding:5px;
-    margin-top:10px;
-    color:#FFC500;
    
+    color:#FFC500;
     font-size:20px;
 }
 #logo{
     margin-left:550px;
-    height:120px;
-    width:500px;
+    height:250px;
+    width:300px;
 }
 #instructions{
     width:450px;
@@ -92,7 +90,7 @@ header{
     color:yellow;
     background:url("../images/hw1.png");
     background-position: center;
-    background-size:350px 125px;
+    background-size:350px 200px;
     font-family:"Henny Penny", cursive;
     text-align:center;  
     margin-top:-125px;
