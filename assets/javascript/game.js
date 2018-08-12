@@ -107,6 +107,8 @@ $("#slytherin").on("click", function () {
     else if (counter >= choosenNumber) {
         lose();
     }
+      
+    
 });
 $("#hufflepuff").on("click", function () {
     counter += imageValue4;
