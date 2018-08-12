@@ -12,6 +12,7 @@ This app was created by using the following:
 * HTML
 * CSS
 * jQuery
+## **Game Images**
 ![Alt text](assets/images/HogWarts1.PNG)
 
 
