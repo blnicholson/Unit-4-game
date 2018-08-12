@@ -11,7 +11,7 @@ This app was created by using the following:
 * JavaScript
 * HTML
 * CSS
-
+* jQuery
 ![Alt text](assets/images/HogWarts1.PNG)
 
 
